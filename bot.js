@@ -7,8 +7,8 @@
     }) ;
 
     client.on('message',msg=>{
-        if(msg.content.startsWith(settings.prefix+'test')){
-            msg.channel.send('test committed') ;
+        if(msg.content.startsWith(settings.prefix+'我的小寶貝')){
+            msg.channel.send('YaYaYa!') ;
         }
     }) ;
 
